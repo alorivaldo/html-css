@@ -35,12 +35,15 @@ section#login {
     width: 250px;
     height: 500px;
     border-radius: 20px;
-    box-shadow: 0px 0px 5px gray;
+    box-shadow: 0px 0px 5px black;
+
+    transition: width 0.5s, height 0.5s;
+    transition-timing-function:ease ;
 }
 
 section div#imagem {
     display: block;
-    background-image: url("../tela/imagens/pexels-pixabay-33234.jpg");
+    background-image: url("../tela/imagens/pexels-sean-whang-25006-804269.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     height: 200px;
