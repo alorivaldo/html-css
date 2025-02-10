@@ -20,6 +20,15 @@
         float: right;
         width: 70%;
     }
+
+    div.campo input {
+        /* height: 90%;
+        border: none;
+        border-radius: 8px;
+        width: calc(100%-44%); */
+        transform: translateY(-17px);
+        min-width: 90%;
+    }
 }
 
 @media screen and (min-width: 992px) {
@@ -52,6 +61,14 @@
         text-align: justify;
         margin: 20px 0px;
     }
-    
-    
+
+    div.campo input {
+        /* height: 90%;
+        border: none;
+        border-radius: 8px;
+        width: calc(100%-44%); */
+        transform: translateY(-17px); 
+        min-width: 90%;
+    }
+ 
 }

@@ -91,18 +91,12 @@ div.campo span {
 }
 /* o campo do formulario */
 div.campo input {
-   padding: 5px;
-   border-radius: 8px;
-   width: calc(100% - 50px);
-   transform: translateY(-17px);
-   height: 90%;
-   border: 0px;
-
-
-   
-   
-
-    
+    height: 90%;
+    border: none;
+    border-radius: 8px;
+   /* width: calc(100%-44%); */
+    transform: translateY(-17px);
+    min-width: 80%;
 }
 
 form input[type=submit] {
