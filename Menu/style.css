@@ -71,3 +71,7 @@ div.logo h1 {
 .mobile-menu {
     display: none;
 }
+
+.open {
+    display: block; 
+ }    

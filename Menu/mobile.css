@@ -19,8 +19,10 @@
 
     .mobile-menu-icon button {
         background-color: transparent;
+        color: white;
         border: none;
         cursor: pointer;
+        width: 100px;
     }
 
     .mobile-menu ul {
@@ -40,11 +42,9 @@
         padding: 1rem 2rem;
     }
 
-    .mobile-menu .login-button button {
+    .mobile-menu.login-button {
         width: 100%;
     }
 
-    .open {
-       display: block; 
-    }    
+   
 }
